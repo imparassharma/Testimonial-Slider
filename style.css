@@ -24,11 +24,12 @@ body{
     padding: 5rem 0rem 0rem 0rem;
 }
 
+.slide{
+    display: none;
+}
 
-
-.slide-container{
+.slide.current-slide{
     display: flex;
-    align-items: center;
     justify-content: center;
 }
 
@@ -60,7 +61,7 @@ body{
     background-size: 5rem;
 }
 
-.text1{
+.text{
     display: none;
     text-align: center;
     flex-direction: column;
@@ -70,7 +71,7 @@ body{
     font-weight: 300;
 }
 
-.text1 p{
+.text p{
     margin-bottom: 0.5em;
     color:hsl(240, 38%, 20%);
 }
@@ -117,13 +118,13 @@ body{
     }
 
     .text-section{
-        width: 47%;
+        width: 46.2%;
         margin-right: -10rem;
         background-position: 7rem top;
         background-size: 7rem;
     }
 
-    .text1{
+    .text{
         text-align: left;
         font-size: 32px;
         line-height: 2.5rem;
